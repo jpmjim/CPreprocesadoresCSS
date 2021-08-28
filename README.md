@@ -95,3 +95,10 @@ Mixins
 Su finalidad es ofrecer una funcionalidad que pueda ser reutilizada en otras clases pero que no está pensada para usarse de forma autónoma. Nos permite crear bloques reusables de código que cambian su resultado dependiendo del parámetro que enviemos.
 
 Con los mixin logramos escribir menos código, produciendo un código más claro, más expresivo y sobre todo más fácil de mantener.
+
+Includes y Extends
+Pug funciona como un generador de plantillas, dos de sus principales características para lograrlo son Includes y Extends.
+
+Los includes sirven para incluir un archivo de extensión *.pug dentro de otro.
+
+Los extends te permiten adicionar bloques de código a una página.
