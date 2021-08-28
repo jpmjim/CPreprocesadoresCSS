@@ -1,6 +1,4 @@
-# CPreprocesadoresCSS
-Curso de Preprocesadores CSS
-
+# Curso de Preprocesadores CSS
 2.-Conceptop básicos de CSS
 ===========================
 CSS significa Cascading Style Sheets o su traducción al español Hojas de Estilo en Cascada.
@@ -43,3 +41,41 @@ La prioridad de un selector se determina por la suma de su contenido:
 A mayor la suma, mayor prioridad.
 
 !important es un valor especial tiene un valor de un millón, nunca lo uses a menos que sea tu única opción como cuando no tienes acceso al código fuente.
+
+4.- Introducción a los Preprocesadores
+======================================
+Un preprocesador es una herramienta que nos permite escribir pseudocódigo de forma modular, más fácil de rehusar, leer, y mantener. pseudocódigo que después será convertido a CSS o HTML estándar que el navegador entiende.
+
+Gracias a los preprocesadores podemos extender las características de CSS y HTML al nivel de otros lenguajes de programación, permitiéndonos usar características como variables, funciones y mixins.
+
+Las metodologías para estructurar código son sistemas preestablecidos, formales y bien documentados, que te ayudan a escribir y organizar código mantenible y escalable en sistemas grandes y complejos.
+
+6.- Introducción a BEM
+=====================
+BEM es la metodología que vamos a usar a lo largo del curso. El objetivo de BEM es dividir lógicamente las piezas de las que se compone una web.
+
+BEM establece que debemos usar clases para nuestro selectores, clases que se dividen en:
+
+  - Bloques. Los bloques son nuestros contenedores más grandes que a su vez contienen elementos u 
+    otros bloques.
+  - Elementos. Los elementos siempre forman parte de un bloque, normalmente son los botones, 
+    textos, imágenes etc.
+  - Modificadores. Los modificadores se usan para establecer estilos diferentes a un mismo bloque o 
+    elemento.
+
+7.- Guías para creación y mantenimiento de código
+=================================================
+La meta de tener una guía de código es hacer que luzca como si una sola persona lo haya escrito para que se entendible por todo el equipo.
+
+Para nuestro proyecto PlatziGames vamos a tener una guía en la que definimos:
+
+    Ser consistentes con la indentación.
+    Consistencia con espacios, corchetes, puntos y comas.
+    Consistencia de números, de selectores y divisiones.
+    Agrupaciones de propiedades.
+    Uso de ID’s y clases.
+
+8.- Introducción a Pug Preprocesadores de HTMl
+==============================================
+
+Pug es un generador de templates implementado con Javascript para Node.js y navegadores, que nos permite escribir un pseudocódigo limpio y fácil de leer que será compilado a HTML.
