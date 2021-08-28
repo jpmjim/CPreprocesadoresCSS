@@ -1,5 +1,6 @@
 -var titulo = "Sub-titulo Principal"
 -var titulos = ["Titulo Principal", "Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
+-var usuario = "Jimmy"
 doctype html
 html
   head
@@ -8,7 +9,10 @@ html
   body
     header
       h1 PlatziGames
-      a.boton Resgitro
+      if usuario
+        a Hola #{usuario}
+      else
+        a.boton Resgitro
     section.intro
       .intro__imagen: img(src="images/imagen.png", alt="imagen")
       .intro__contenido
@@ -24,3 +28,6 @@ html
           | distinctio. Veniam!
           span Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto dolores, alias saepe dolore molestiae ratione voluptatem deleniti odit eum labore. 
         a.boton Leer Mas
+    ul
+      each titulo in titulos
+        li= titulo

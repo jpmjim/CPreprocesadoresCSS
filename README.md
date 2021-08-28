@@ -86,3 +86,7 @@ Las variables no vienen de forma nativa en HTML pero con PUG podemos usarlas. En
 
 -var titulo = "Sub-titulo Principal"
 -var titulos = ["Titulo Principal", "Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
+
+Un condicional nos permite evaluar cierta condición y bifurcar entre dos caminos dependiendo de si se cumple o no.
+
+Un loop es un fragmento de código que va a ejecutar de forma repetitiva hasta que cumpla una condición. Lo podemos usar en una lista.
