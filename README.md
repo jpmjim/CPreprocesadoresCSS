@@ -90,3 +90,8 @@ Las variables no vienen de forma nativa en HTML pero con PUG podemos usarlas. En
 Un condicional nos permite evaluar cierta condición y bifurcar entre dos caminos dependiendo de si se cumple o no.
 
 Un loop es un fragmento de código que va a ejecutar de forma repetitiva hasta que cumpla una condición. Lo podemos usar en una lista.
+
+Mixins
+Su finalidad es ofrecer una funcionalidad que pueda ser reutilizada en otras clases pero que no está pensada para usarse de forma autónoma. Nos permite crear bloques reusables de código que cambian su resultado dependiendo del parámetro que enviemos.
+
+Con los mixin logramos escribir menos código, produciendo un código más claro, más expresivo y sobre todo más fácil de mantener.
