@@ -79,3 +79,10 @@ Para nuestro proyecto PlatziGames vamos a tener una guía en la que definimos:
 ==============================================
 
 Pug es un generador de templates implementado con Javascript para Node.js y navegadores, que nos permite escribir un pseudocódigo limpio y fácil de leer que será compilado a HTML.
+
+12.- Pug, preprocesador de HTML
+===============================
+Las variables no vienen de forma nativa en HTML pero con PUG podemos usarlas. En ellas almacenamos datos y los reutilizarlos en todo nuestro archivo HTML evitándonos tener que escribir lo mismo una y otra vez.Al incio de cualquier otro código.
+
+-var titulo = "Sub-titulo Principal"
+-var titulos = ["Titulo Principal", "Subtitulo 1", "Subtitulo 2", "Subtitulo 3"]
