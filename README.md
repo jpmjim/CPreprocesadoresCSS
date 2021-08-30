@@ -114,3 +114,8 @@ En las variables almacenamos datos que se puede reutilizar en todas nuestras hoj
 
 Comúnmente almacenamos en variables las guías de estilo de nuestro sitio, como pueden ser los colores y fuentes.
 
+Funciones
+La diferencia entre mixins y funciones es que las funciones por general hacen cálculos y regresan un resultado que es usado como valor de alguna propiedad.
+
+Las funciones en Less ya están prediseñadas.
+ - fade lo que haces es reducir o darle transparencia al color que definamos.
