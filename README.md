@@ -119,3 +119,9 @@ La diferencia entre mixins y funciones es que las funciones por general hacen c�
 
 Las funciones en Less ya están prediseñadas.
  - fade lo que haces es reducir o darle transparencia al color que definamos.
+
+Mixins
+Su finalidad es ofrecer una funcionalidad que pueda ser reutilizada en otras clases pero que no está pensada para usarse de forma autónoma. Nos permite crear bloques reusables de código que cambian su resultado dependiendo del parámetro
+que enviemos.
+
+Con los mixins logramos escribir menos código, produciendo un código más claro, más expresivo y sobre todo más fácil de mantener.

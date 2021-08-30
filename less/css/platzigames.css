@@ -1,3 +1,12 @@
+.sombra-caja {
+  -webkit-box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
+          box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
+}
+.Oswald {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10,9 +19,10 @@ body {
 h1,
 h2,
 h3 {
+  margin: 0;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  margin: 0;
+  font-weight: 700;
 }
 .intro {
   width: 1340px;
@@ -20,6 +30,9 @@ h3 {
   padding: 10px;
   margin: 0 auto;
   position: relative;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
+          box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
 }
 .intro__imagen {
   width: 1320px;
@@ -43,8 +56,8 @@ h3 {
 }
 .intro__categoria {
   font-family: 'Oswald', sans-serif;
-  -webkit-text-decoration: uppercase;
-          text-decoration: uppercase;
+  text-transform: uppercase;
+  font-weight: 700;
   color: rgba(255, 255, 255, 0.5);
 }
 .intro__titulo {
@@ -90,4 +103,36 @@ h3 {
 }
 .articulo--principal h3 {
   color: #8841da;
+}
+.contenedor--cajas {
+  width: 1400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+  -webkit-box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
+          box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
+}
+.caja__contenido {
+  padding: 25px;
+  background-color: #ffffff;
+}
+.caja span {
+  color: #8841da;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.caja a {
+  text-decoration: none;
+  color: #012179;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
