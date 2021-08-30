@@ -5,6 +5,36 @@
 @fuente1: 'Lato', sans-serif;
 @fuente2: 'Oswald', sans-serif;
 @fuente-base: 18px;
+// Reto
+@dark-mode: true;
+.dark() when (@dark-mode = false) {
+	background-color: @color-primario;
+	color: @color-claro;
+  
+	.intro {
+	  	background-color: @color-secundario;
+	}
+  
+	.caja {
+	  span {
+		color: fade(@color-claro, 80%);
+	  }
+	}
+  
+	.caja__contenido {
+	  background-color: @color-secundario;
+	  a {
+		color: fade(@color-claro, 50%);
+	  }
+	}
+  
+	.articulo--principal {
+	  h2 {
+		color: @color-secundario;
+	  }
+	}
+}
+//Final del reto
 
 .sombra-caja {
   box-shadow: 0 5px 15px 8px fade(@color-primario, 50%);
@@ -22,10 +52,11 @@ body {
 	margin: 0;
 	font-family: @fuente1;
   color: @color-primario;
+  .dark;
   
 }
 
 h1,h2,h3 {
 	margin: 0;
-  .Oswald();
+  .Oswald(); //reto
 }

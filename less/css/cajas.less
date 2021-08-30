@@ -1,12 +1,12 @@
 .contenedor--cajas {
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
 }
 
 .caja {
-  max-width: 430px;
+  max-width: 300px;
   .sombra-caja();
   &__contenido {
     padding: 25px;
@@ -14,12 +14,13 @@
   }
   span {
     color: @color-secundario;
-    .Oswald();
   }
   a {
     text-decoration: none;
     color: @color-variacion;
-    .Oswald();
+  }
+  img {
+    width: 300px;
   }
 
 }
