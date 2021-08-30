@@ -102,3 +102,9 @@ Pug funciona como un generador de plantillas, dos de sus principales caracterís
 Los includes sirven para incluir un archivo de extensión *.pug dentro de otro.
 
 Los extends te permiten adicionar bloques de código a una página.
+
+Preprocesadores para CSS
+
+Less
+====
+Less es un preprocesador para CSS que nos permite trabajar hojas de estilo con funcionalidades de un lenguaje de programación. Nos permite trabajar con anidaciones
