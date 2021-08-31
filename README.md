@@ -146,3 +146,8 @@ Comúnmente almacenamos en variables las guías de estilo de nuestro sitio, como
 En sass hay dos maneras de escribir la sintaxis, la primera es con la extensión “.sass” que se obvia los “{ }” y el " ; ", y la otra es con la extensión “.scss” que es igual que escribir css con “{ }” y " ; " .
 .sass es la manera vieja.
 .scss es la nueva manera.
+
+Imports y Extends
+Import nos permite escribir código modular separando en diferentes archivos para después importarlos todos en uno solo y tener una base código mucho más ordenada.
+
+Extends sirve para insertar los estilos de un selector en otro.
