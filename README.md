@@ -162,3 +162,7 @@ Si se fijan, los conceptos de Extends y Mixins son muy parecidos. Vamos a explic
     la misma que tienen los Extends. Estos se imprimen separados en cada uno de los lugares donde fueron declarados.
 
 Ya tenemos un poco más claro cuales son las diferencias entre estas importantes características de Sass. Recuerden, los Extends los usaremos para compartir fragmentos de estilos idénticos entre componentes y los Mixins para reutilizar fragmentos de estilos que puedan tener un resultado diferente en cada lugar donde los declaremos.
+
+Stylus
+======
+Es el preprocesador CSS más reciente de los tres. Fue creado por TJ Holowaychuk (ex programador de Node.js) y escrito en JADE y Node.js.
