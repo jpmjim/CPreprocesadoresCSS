@@ -125,3 +125,13 @@ Su finalidad es ofrecer una funcionalidad que pueda ser reutilizada en otras cla
 que enviemos.
 
 Con los mixins logramos escribir menos código, produciendo un código más claro, más expresivo y sobre todo más fácil de mantener.
+
+Sass
+====
+Sass (Syntactically Awesome StyleSheets) es una extensión de CSS que añade características muy potentes y elegantes a este lenguaje de estilos.
+
+Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
+
+Sass nos permite usar variables , reglas anidadas , mixins y funciones.
+La razón de que en SASS usemos la extensión ‘.scss’ es porque esta nos permite usar una sintaxis muy parecida a css.
+La otra opción es usar SASS con la extensión ‘.sass’ la única diferencia es que con esta extensión podremos omitir las llaves ‘{}’ y los punto y coma ‘;’ después de cada valor, esta sintaxis interpretará los atributos y valores por medio de la identación.

@@ -1,3 +1,6 @@
+.justificado {
+  text-align: justify;
+}
 .sombra-caja {
   -webkit-box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
           box-shadow: 0 5px 15px 8px rgba(51, 51, 51, 0.5);
@@ -15,23 +18,6 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   color: #333333;
-  background-color: #333333;
-  color: #ffffff;
-}
-body .intro {
-  background-color: #8841da;
-}
-body .caja span {
-  color: rgba(255, 255, 255, 0.8);
-}
-body .caja__contenido {
-  background-color: #8841da;
-}
-body .caja__contenido a {
-  color: rgba(255, 255, 255, 0.5);
-}
-body .articulo--principal h2 {
-  color: #8841da;
 }
 h1,
 h2,
@@ -115,6 +101,7 @@ h3 {
   max-width: 660px;
   margin: 0 auto;
   line-height: 28px;
+  text-align: justify;
 }
 .articulo--principal__intro {
   font-size: 26px;

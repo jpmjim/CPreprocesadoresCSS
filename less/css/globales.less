@@ -5,9 +5,12 @@
 @fuente1: 'Lato', sans-serif;
 @fuente2: 'Oswald', sans-serif;
 @fuente-base: 18px;
+.justificado {
+  text-align: justify;
+}
 // Reto
 @dark-mode: true;
-.dark() when (@dark-mode = true) {
+.dark() when (@dark-mode = false) {
 	background-color: @color-primario;
 	color: @color-claro;
   
@@ -53,7 +56,6 @@ body {
 	font-family: @fuente1;
   color: @color-primario;
   .dark;
-  
 }
 
 h1,h2,h3 {
