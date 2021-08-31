@@ -135,3 +135,14 @@ Sass es basado en Ruby a diferencia de Less y Stylus que se basan en Javascript.
 Sass nos permite usar variables , reglas anidadas , mixins y funciones.
 La razón de que en SASS usemos la extensión ‘.scss’ es porque esta nos permite usar una sintaxis muy parecida a css.
 La otra opción es usar SASS con la extensión ‘.sass’ la única diferencia es que con esta extensión podremos omitir las llaves ‘{}’ y los punto y coma ‘;’ después de cada valor, esta sintaxis interpretará los atributos y valores por medio de la identación.
+
+Variables
+En las variables almacenamos datos que se puede reutilizar en todas nuestras hojas de estilos. Así evitamos tener que escribir lo mismo una y otra vez cuando se realiza algún cambio, ya que sólo vamos a modificar el valor de la variable y se aplicará a todos los lugares donde sea usada.
+
+La variable en Sass inicia con el signo de "$".
+
+Comúnmente almacenamos en variables las guías de estilo de nuestro sitio, como pueden ser los colores y fuentes.
+
+En sass hay dos maneras de escribir la sintaxis, la primera es con la extensión “.sass” que se obvia los “{ }” y el " ; ", y la otra es con la extensión “.scss” que es igual que escribir css con “{ }” y " ; " .
+.sass es la manera vieja.
+.scss es la nueva manera.
