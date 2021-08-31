@@ -27,7 +27,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 96%;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -65,7 +65,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 96%;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -84,8 +84,30 @@ body {
   color: #8841da;
   font-family: 'Oswald', sans-serif;
 }
-.caja__contenido height {
+.caja__contenido h3 {
   text-transform: uppercase;
   font-weight: normal;
   font-family: 'Oswald', sans-serif;
+}
+.estadistica--articulos {
+  height: 70px;
+  padding: 20px;
+  border-top: 2px solid rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.estadistica--articulos ul li {
+  list-style: none;
+  color: rgba(51,51,51,0.3);
+}
+.estadistica--articulos ul span {
+  margin-left: 10px;
 }
