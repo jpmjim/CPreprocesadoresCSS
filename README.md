@@ -151,3 +151,14 @@ Imports y Extends
 Import nos permite escribir código modular separando en diferentes archivos para después importarlos todos en uno solo y tener una base código mucho más ordenada.
 
 Extends sirve para insertar los estilos de un selector en otro.
+
+Mixins
+Si se fijan, los conceptos de Extends y Mixins son muy parecidos. Vamos a explicar dos diferencias entre ellos que son claves para un entendimiento más claro:
+
+  - Una de las mayores diferencias con los 
+    Extends, es que los Mixins pueden recibir argumentos, los cuales te permitirán producir una gran variedad de estilos con unas simples líneas.
+
+  - La impresión en CSS de los Mixins, no es 
+    la misma que tienen los Extends. Estos se imprimen separados en cada uno de los lugares donde fueron declarados.
+
+Ya tenemos un poco más claro cuales son las diferencias entre estas importantes características de Sass. Recuerden, los Extends los usaremos para compartir fragmentos de estilos idénticos entre componentes y los Mixins para reutilizar fragmentos de estilos que puedan tener un resultado diferente en cada lugar donde los declaremos.

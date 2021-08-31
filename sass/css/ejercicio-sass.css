@@ -17,7 +17,7 @@ main {
 }
 
 .perfil {
-  width: 50%;
+  width: 50vw;
   padding-top: 50px;
   color: #ffffff;
   background-color: #8841DA;
@@ -68,8 +68,11 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   border-radius: 20px;
-  background-color: #ffffff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
   color: #333333;
+  background-color: #ffffff;
 }
 .estadistica--perfil h3 {
   font-weight: 600;
@@ -91,8 +94,10 @@ main {
   margin: 30px auto 0 auto;
   padding: 20px 0 0 50px;
   border-radius: 20px;
-  background-color: #ffffff;
+  -webkit-box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 20px 33px 0px rgba(0, 0, 0, 0.5);
   color: #333333;
+  background-color: #ffffff;
 }
 .ubicacion--perfil i {
   display: block;
