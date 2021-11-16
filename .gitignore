@@ -1,3 +1,2 @@
-*.pdf
-*.webp
-*.jpg
+
+node_modules
